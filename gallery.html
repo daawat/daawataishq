@@ -68,7 +68,8 @@
                         <span class="icon-bar"></span>
                     </button>
 
-                    <a href="index.html" class="navbar-brand brand scrool"><img src="./Photos/logo.png" alt="logo" style="height: 70px; position: relative; top: -20px; "></a>
+                    <a href="index.html" class="navbar-brand brand scrool"><img src="./Photos/logo.png" alt="logo"
+                            style="height: 70px; position: relative; top: -20px; "></a>
                 </div>
 
                 <div id="navbar-collapse-02" class="collapse navbar-collapse">
@@ -79,21 +80,40 @@
                         <li class="selected"><a href="gallery.html">Gallery</a></li>
                         <li><a href="contact.html" style="color: #000000 !important;">Contact</a></li>
 
-                        <li class="social"><a href="#" class="first" ><i class="fa fa-twitter" style="color: #000000 !important;"></i></a></li>
-                        <li class="social"><a href="#"><i class="fa fa-facebook" style="color: #000000 !important;"></i></a></li>
-                        <li class="social"><a href="#" class="last"><i class="fa fa-instagram" style="color: #000000 !important;"></i></a></li>
+                        <li class="social"><a href="#" class="first"><i class="fa fa-twitter"
+                                    style="color: #000000 !important;"></i></a></li>
+                        <li class="social"><a href="#"><i class="fa fa-facebook"
+                                    style="color: #000000 !important;"></i></a></li>
+                        <li class="social"><a href="#" class="last"><i class="fa fa-instagram"
+                                    style="color: #000000 !important;"></i></a></li>
 
                         <!-- <li><a href="#" class="purchase">Purchase</a></li> -->
                         <!-- If you would like to customize the button, remove or change the "class" attribute inside the <span> tag -->
-                        <span class=" btn btn-warning", style="background-color: #f8bf2c; border: 2px solid #f8bf2c; border-radius: 3px; color: black; margin-left: 5px;margin-top: 5px;" data-glf-cuid="8860f8da-c1fc-4738-a876-f5e3227a75c4"
+                        <span class=" btn btn-warning" ,
+                            style="background-color: #f8bf2c; border: 2px solid #f8bf2c; border-radius: 3px; color: black; margin-left: 5px;margin-top: 5px;"
+                            data-glf-cuid="8860f8da-c1fc-4738-a876-f5e3227a75c4"
                             data-glf-ruid="ea8cde35-ad76-42d2-b50a-4f428c8f3515">Order Online</span>
-                        <span class="btn reservation", style="background-color: #f8bf2c; border: 2px solid #f8bf2c; border-radius: 3px; color: black;margin-top: 5px;" data-glf-cuid="8860f8da-c1fc-4738-a876-f5e3227a75c4"
+                        <span class="btn reservation" ,
+                            style="background-color: #f8bf2c; border: 2px solid #f8bf2c; border-radius: 3px; color: black;margin-top: 5px;"
+                            data-glf-cuid="8860f8da-c1fc-4738-a876-f5e3227a75c4"
                             data-glf-ruid="ea8cde35-ad76-42d2-b50a-4f428c8f3515" data-glf-reservation="true">Table
                             Reservation</span>
                         <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async></script>
                     </ul>
                 </div>
                 <!--end navbar -->
+                <div id="ButtonInMobileView" class="text-center" style="margin-top: 20px">
+                    <span class=" btn btn-warning" ,
+                        style="background-color: #f8bf2c; border: 2px solid #f8bf2c; border-radius: 3px; color: black; margin-left: 5px;margin-top: 5px;width:45%;"
+                        data-glf-cuid="8860f8da-c1fc-4738-a876-f5e3227a75c4"
+                        data-glf-ruid="ea8cde35-ad76-42d2-b50a-4f428c8f3515">Order Online</span>
+                    <span class="btn reservation" ,
+                        style="background-color: #f8bf2c; border: 2px solid #f8bf2c; border-radius: 3px; color: black;margin-top: 5px;width: 45%;"
+                        data-glf-cuid="8860f8da-c1fc-4738-a876-f5e3227a75c4"
+                        data-glf-ruid="ea8cde35-ad76-42d2-b50a-4f428c8f3515" data-glf-reservation="true">Table
+                        Reservation</span>
+                    <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async></script>
+                </div>
 
             </div>
             <!--end container -->
@@ -504,6 +524,24 @@
 
     </div>
     <!--end footer -->
+
+    <!-- button javascript to make them visible -->
+    <script>
+        function toggleMobileButton() {
+            var buttonDiv = document.getElementById("ButtonInMobileView");
+            if (window.innerWidth <= 990) {
+                buttonDiv.style.display = "block";
+            } else {
+                buttonDiv.style.display = "none";
+            }
+        }
+
+        // Run on page load
+        toggleMobileButton();
+
+        // Run on window resize
+        window.addEventListener("resize", toggleMobileButton);
+    </script>
 
 
     <!-- Load JS here for greater good =============================-->
