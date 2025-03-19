@@ -56,40 +56,40 @@ const portlandAuthenticIndianWraps = [
 ]
 
 const portlandRiceOption = [
-    {itemName : "Veg Biryani", price : 14.99, Ingredients : "Authentic Indian rice cooked with a special blend of veggies and spices.", imageLink : "./Photos/Veg/chicken 65.JPG"},
-    {itemName : "Non-Veg Biryani", price : "17.99/18.99/16.99/18.99", Ingredients : "Authentic Indian rice cooked with a special blend of veggies, spices and your choice of meat. (Lamb, Goat, Chicken, Shrimp)", imageLink : "./Photos/Veg/chicken 65.JPG"},
-    {itemName : "Plain Steamed Rice", price : 3.99, Ingredients : "", imageLink : "./Photos/Veg/chicken 65.JPG"},
+    {itemName : "Veg Biryani", price : 14.99, Ingredients : "Authentic Indian rice cooked with a special blend of veggies and spices.", imageLink : "./Photos/Veg/veg biryani.png"},
+    {itemName : "Non-Veg Biryani", price : "17.99/18.99/16.99/18.99", Ingredients : "Authentic Indian rice cooked with a special blend of veggies, spices and your choice of meat. (Lamb, Goat, Chicken, Shrimp)", imageLink : "./Photos/Veg/non-veg biryani.png"},
+    {itemName : "Plain Steamed Rice", price : 3.99, Ingredients : "", imageLink : "./Photos/Veg/plain steamed rice.png"},
 ]
 
 
 const portlandFreshlyBakedBread = [
-    {itemName : "Plain Naan", price : 3.50, Ingredients : "Light and fluffy flatbread", imageLink : "./Photos/Veg/chicken 65.JPG"},
-    {itemName : "Tandoori Naan", price : 3.99, Ingredients : "Indian flatbread made in clay oven", imageLink : "./Photos/Veg/chicken 65.JPG"},
-    {itemName : "Butter Naan", price : 4.50, Ingredients : "Mixed vegetables sautéed with Indian spices", imageLink : "./Photos/Bread/ButterNaan.jpg"},
-    {itemName : "Lacha Paratha", price : 4.99, Ingredients : "Indian flatbread with flaky and crispy layers", imageLink : "./Photos/Bread/LachaParatha.jpg"},
-    {itemName : "Onion Kulcha", price : 4.99, Ingredients : "Flatbread stuffed with onion and spices cooked in oven.", imageLink : "./Photos/Bread/OnionKulcha.jpg"},
-    {itemName : "Garlic Naan", price : 4.99, Ingredients : "Naan bread laced with garlic & cilantro with butter", imageLink : "./Photos/Bread/GarlicNaan.jpg"},
-    {itemName : "Gobi Paratha", price : 5.99, Ingredients : "Indian flatbread stuffed with onions, spices and cauliflower.", imageLink : "./Photos/Bread/GobiParatha.jpg"},
-    {itemName : "Chicken Naan", price : 6.99, Ingredients : "Flatbread stuffed with chicken and spices blend.", imageLink : "./Photos/Bread/ChickenNaan.jpg"},
-    {itemName : "Cheese Naan", price : 5.99, Ingredients : "Tandoori naan stuffed with mozzarella cheese.", imageLink : "./Photos/Bread/CheeseNaan.jpg"},
-    {itemName : "Aloo Paratha", price : 5.99, Ingredients : "Indian flatbread with spiced potatoes.", imageLink : "./Photos/Bread/AlooParatha.jpg"},
-    {itemName : "Chilli Cheese Naan", price : 6.99, Ingredients : "Flatbread stuffed with green chilli, Indian cheese, onions, and spices", imageLink : "./Photos/Bread/ChilliCheeseNaan.jpg"},
-    {itemName : "Assorted Bread Basket", price : 12.99, Ingredients : "Variety of Indian flatbreads", imageLink : "./Photos/Bread/AssortedBreadBasket.jpg"},
+    {itemName : "Plain Naan", price : 3.50, Ingredients : "Light and fluffy flatbread", imageLink : "./Photos/Veg/plain naan.png"},
+    {itemName : "Tandoori Naan", price : 3.99, Ingredients : "Indian flatbread made in clay oven", imageLink : "./Photos/Veg/tandoori naan.png"},
+    {itemName : "Butter Naan", price : 4.50, Ingredients : "Mixed vegetables sautéed with Indian spices", imageLink : "./Photos/Veg/butter naan.png"},
+    {itemName : "Lacha Paratha", price : 4.99, Ingredients : "Indian flatbread with flaky and crispy layers", imageLink : "Photos/Veg/Lachha Paratha.png"},
+    {itemName : "Onion Kulcha", price : 4.99, Ingredients : "Flatbread stuffed with onion and spices cooked in oven.", imageLink : "./Photos/Veg/onion kulcha.png"},
+    {itemName : "Garlic Naan", price : 4.99, Ingredients : "Naan bread laced with garlic & cilantro with butter", imageLink : "./Photos/Veg/garlic naan.png"},
+    {itemName : "Gobi Paratha", price : 5.99, Ingredients : "Indian flatbread stuffed with onions, spices and cauliflower.", imageLink : "./Photos/Veg/gobi paratha.png"},
+    {itemName : "Chicken Naan", price : 6.99, Ingredients : "Flatbread stuffed with chicken and spices blend.", imageLink : "./Photos/Veg/chicken naan.png"},
+    {itemName : "Cheese Naan", price : 5.99, Ingredients : "Tandoori naan stuffed with mozzarella cheese.", imageLink : "./Photos/Veg/cheese naan.png"},
+    {itemName : "Aloo Paratha", price : 5.99, Ingredients : "Indian flatbread with spiced potatoes.", imageLink : "./Photos/Veg/aloo paratha.png"},
+    {itemName : "Chilli Cheese Naan", price : 6.99, Ingredients : "Flatbread stuffed with green chilli, Indian cheese, onions, and spices", imageLink : "./Photos/Veg/chilli cheese naan.png"},
+    {itemName : "Assorted Bread Basket", price : 12.99, Ingredients : "Variety of Indian flatbreads", imageLink : "./Photos/Veg/Assorted Bread Basket.png"},
 ]
 
 const portlandIndianStreetFood = [
     {itemName : "Chilli Paneer", price : 14.99, Ingredients : "Fried paneer cubes tossed in spicy and tangy sauce with onion and bell peppers", imageLink : "./Photos/Veg/chili paneer.JPG"},
     {itemName : "Gobi Manchurian", price : 13.99, Ingredients : "Indian flatbread with flaky and crispy layers", imageLink : "./Photos/Veg/gobhi manchurian.JPG"},
-    {itemName : "Chilli Chicken", price : 15.99, Ingredients : "Fried Chicken tossed in spicy and tangy sauce with onion and bell peppers", imageLink : "./Photos/StreetFood/ChilliChicken.jpg"},
-    {itemName : "Choley Bhature", price : 12.99, Ingredients : "Fried flatbread served with chickpea curry", imageLink : "./Photos/StreetFood/CholeyBhature.jpg"},
-    {itemName : "Bollywood Wings", price : 10.99, Ingredients : "", imageLink : "./Photos/StreetFood/BollywoodWings.jpg"},
-    {itemName : "Pani Puri", price : 6.99, Ingredients : "Hollow fried ball filled with potato, chickpeas, onions and flavored water", imageLink : "restaurant/Photos/Veg/pani puri.JPG"},
-    {itemName : "Paappadum", price : 2.50, Ingredients : "Thin and crispy snack", imageLink : "./Photos/StreetFood/Paappadum.jpg"},
-    {itemName : "Desi Salad", price : 4.99, Ingredients : "Indian style salad", imageLink : "./Photos/StreetFood/DesiSalad.jpg"},
-    {itemName : "Mint Chutney", price : 2.50, Ingredients : "Sauce made out of mint", imageLink : "./Photos/StreetFood/MintChutney.jpg"},
-    {itemName : "Tamarind Chutney", price : 2.50, Ingredients : "Sauce made out of tamarind", imageLink : "./Photos/StreetFood/TamarindChutney.jpg"},
-    {itemName : "Mixed Pickle", price : 3.99, Ingredients : "Pickled veggies", imageLink : "./Photos/StreetFood/MixedPickle.jpg"},
-    {itemName : "Raita", price : 4.99, Ingredients : "Yogurt with grated carrots and cucumber", imageLink : "./Photos/StreetFood/Raita.jpg"},
+    {itemName : "Chilli Chicken", price : 15.99, Ingredients : "Fried Chicken tossed in spicy and tangy sauce with onion and bell peppers", imageLink : "./Photos/Veg/chilli chicken.png"},
+    {itemName : "Choley Bhature", price : 12.99, Ingredients : "Fried flatbread served with chickpea curry", imageLink : "./Photos/Veg/Choley Bhature.png"},
+    {itemName : "Bollywood Wings", price : 10.99, Ingredients : "", imageLink : "./Photos/Veg/bollywood wings.png"},
+    {itemName : "Pani Puri", price : 6.99, Ingredients : "Hollow fried ball filled with potato, chickpeas, onions and flavored water", imageLink : "./Photos/Veg/pani puri.png"},
+    {itemName : "Paappadum", price : 2.50, Ingredients : "Thin and crispy snack", imageLink : "./Photos/Veg/Papadum.png"},
+    {itemName : "Desi Salad", price : 4.99, Ingredients : "Indian style salad", imageLink : "./Photos/Veg/desi salad.png"},
+    {itemName : "Mint Chutney", price : 2.50, Ingredients : "Sauce made out of mint", imageLink : "./Photos/Veg/mint chutney.png"},
+    {itemName : "Tamarind Chutney", price : 2.50, Ingredients : "Sauce made out of tamarind", imageLink : "./Photos/Veg/tamarind chutney.png"},
+    {itemName : "Mixed Pickle", price : 3.99, Ingredients : "Pickled veggies", imageLink : "./Photos/Veg/mixed pickle.png"},
+    {itemName : "Raita", price : 4.99, Ingredients : "Yogurt with grated carrots and cucumber", imageLink : "./Photos/Veg/raita.png"},
 ]
 
 
@@ -99,11 +99,11 @@ const portlandDrinksAndDessertsCorner = [
     {itemName : "Sweet Lassi", price : 4.99, Ingredients : "Made from yogurt and sugar", imageLink : "./Photos/Veg/sweet lassi.JPG"},
     {itemName : "Lemonade", price : 4.99, Ingredients : "Mango/Strawberry/Watermelon", imageLink : "./Photos/Veg/lemonade.JPG"},
     {itemName : "Masala Soda", price : 3.99, Ingredients : "Sparkling water with spices", imageLink : "./Photos/Veg/masala soda.JPG"},
-    {itemName : "Masala Chai", price : 3.99, Ingredients : "Indian Tea", imageLink : "restaurant/Photos/Veg/masala chai.JPG"},
+    {itemName : "Masala Chai", price : 3.99, Ingredients : "Indian Tea", imageLink : "./Photos/Veg/masala chai.png"},
     {itemName : "Rose Milk", price : 4.99, Ingredients : "Milk with rose syrup", imageLink : "./Photos/Veg/rose milk.JPG"},
-    {itemName : "Salty Lassi", price : 4.49, Ingredients : "Made from yogurt and salt", imageLink : "restaurant/Photos/Veg/salty lassi.JPG"},
-    {itemName : "Gajar Halwa", price : 6.99, Ingredients : "Carrot Pudding", imageLink : "./Photos/DrinksDesserts/GajarHalwa.jpg"},
-    {itemName : "Kheer", price : 4.99, Ingredients : "Rice Pudding", imageLink : "./Photos/DrinksDesserts/Kheer.jpg"},
-    {itemName : "Gulab Jamun", price : "2pc: 5.99, 4pc: 7.99", Ingredients : "Pastry ball coated with syrup made out of honey and rose water", imageLink : "./Photos/DrinksDesserts/GulabJamun.jpg"},
-    {itemName : "Ras Malai", price : 4.99, Ingredients : "Rasmalai are soft cheese dumplings soaked in a cardamom and saffron milk", imageLink : "./Photos/DrinksDesserts/RasMalai.jpg"},
+    {itemName : "Salty Lassi", price : 4.49, Ingredients : "Made from yogurt and salt", imageLink : "./Photos/Veg/Salty Lassi.png"},
+    {itemName : "Gajar Halwa", price : 6.99, Ingredients : "Carrot Pudding", imageLink : "./Photos/Veg/gajar halwa.png"},
+    {itemName : "Kheer", price : 4.99, Ingredients : "Rice Pudding", imageLink : "./Photos/Veg/kheer.png"},
+    {itemName : "Gulab Jamun", price : "2pc: 5.99, 4pc: 7.99", Ingredients : "Pastry ball coated with syrup made out of honey and rose water", imageLink : "./Photos/Veg/gulab jamun.png"},
+    {itemName : "Ras Malai", price : 4.99, Ingredients : "Rasmalai are soft cheese dumplings soaked in a cardamom and saffron milk", imageLink : "./Photos/Veg/Ras Mala.png"},
 ]
