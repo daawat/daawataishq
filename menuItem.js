@@ -85,7 +85,7 @@ const portlandIndianStreetFood = [
     {itemName : "Bollywood Wings", price : 10.99, Ingredients : "", imageLink : "./Photos/Veg/bollywood wings.png"},
     {itemName : "Pani Puri", price : 6.99, Ingredients : "Hollow fried ball filled with potato, chickpeas, onions and flavored water", imageLink : "./Photos/Veg/pani puri.png"},
     {itemName : "Paappadum", price : 2.50, Ingredients : "Thin and crispy snack", imageLink : "./Photos/Veg/Papadum.png"},
-    {itemName : "Desi Salad", price : 4.99, Ingredients : "Indian style salad", imageLink : "./Photos/Veg/desi salad.png"},
+    {itemName : "Desi Salad", price : 4.99, Ingredients : "Indian style salad", imageLink : "./Photos/Veg/desi salad1.jpeg"},
     {itemName : "Mint Chutney", price : 2.50, Ingredients : "Sauce made out of mint", imageLink : "./Photos/Veg/mint chutney.png"},
     {itemName : "Tamarind Chutney", price : 2.50, Ingredients : "Sauce made out of tamarind", imageLink : "./Photos/Veg/tamarind chutney.png"},
     {itemName : "Mixed Pickle", price : 3.99, Ingredients : "Pickled veggies", imageLink : "./Photos/Veg/mixed pickle.png"},
